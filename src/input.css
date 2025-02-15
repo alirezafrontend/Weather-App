@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@import "tailwindcss";
+
+body {
+  font-family: poppins !important;
+}
+
+.container_city {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.weather_details > div {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
